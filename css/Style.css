@@ -32,6 +32,8 @@ body.color-fondo{
 }
 .logo{
     font-size: 1.3em;
+    text-align: center;
+    margin-left: 80px;
 }
 .navigation ul{
     margin: 0;
