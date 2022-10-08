@@ -79,10 +79,12 @@ body.color-fondo{
     .menu-icon{
         display: block;
         cursor: pointer;
-        padding: 0.2rem 0.5rem;
+        padding: 0.2rem 0.2rem;
     }
     .logo{
-        margin-left: 20px;
+        margin-left: 0%;
+        text-align: center;
+        font-size: 1em;
     }
     .navigation{
         width: 100%;
@@ -105,5 +107,9 @@ body.color-fondo{
     }
     .navigation ul li a:hover{
         background-color: rgba(204, 204, 204, 0.158);
+    }
+    .icon{
+        height: 60px;
+        padding: 10px;
     }
 }
