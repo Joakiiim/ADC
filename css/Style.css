@@ -70,9 +70,11 @@ body.color-fondo{
 }
 .footer{
     background: #282248;
-    padding: 4rem 0;
+    padding: 1rem 0;
     text-align: center;
     margin-top: 6rem;
+    font-size: 16px;
+    align-items: center;
 }
 
 @media only screen and (max-width: 790px) {
@@ -138,4 +140,14 @@ body.color-fondo{
     text-align: center;
     font-size: 25px;
     margin-bottom: 20px;
+}
+.logotec{
+    content: url("../media/images/logotec.png");
+    height: 80px;
+    display: inline;
+    text-align: center;
+}
+.botText{
+    font-size: 16px;
+    text-align: center;
 }
