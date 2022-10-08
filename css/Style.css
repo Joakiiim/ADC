@@ -19,6 +19,10 @@ body.color-fondo{
     background-color: #282248;
     color: white;
     padding: 0.3rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
 }
 .header a{
     color:white;
@@ -56,4 +60,13 @@ body.color-fondo{
     content: url("../media/images/mbicon.png");
     height: 85px;
     padding: 10px;
+}
+.main{
+    padding-top: 8rem;
+}
+.footer{
+    background: #282248;
+    padding: 4rem 0;
+    text-align: center;
+    margin-top: 6rem;
 }
