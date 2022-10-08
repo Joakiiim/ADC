@@ -19,11 +19,11 @@ body.color-fondo{
     background-color: #282248;
     color: white;
     padding: 0.3rem 0;
-
 }
 .header a{
     color:white;
     text-decoration: none;
+    
 }
 .logo-nav-container{
     display: flex;
@@ -31,7 +31,6 @@ body.color-fondo{
     align-items: center;
 }
 .logo{
-    letter-spacing: 15px;
     font-size: 1.3em;
 }
 .navigation ul{
@@ -44,7 +43,7 @@ body.color-fondo{
 }
 .navigation ul li a{
     display: block;
-    padding: 0.5rem 1rem;
+    padding: 0.2rem 0.5rem;
     transition: all 0.4s linear;
     border-radius: 5px;
 }
@@ -55,5 +54,4 @@ body.color-fondo{
     content: url("../media/images/mbicon.png");
     height: 85px;
     padding: 10px;
-    align-items: center;
 }
