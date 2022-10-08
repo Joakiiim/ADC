@@ -1,0 +1,32 @@
+/* CONFIGURACIÓN GENERAL DE BODY */
+body.color-fondo{
+    background-color: #18142f;
+    margin: 0;
+    background-attachment: fixed;
+}
+
+/*-----------------CONFIGURACIÓN DE LA CABECERA-----------------------------*/
+div.header{
+    height: 15vh;
+    display: flex;
+    margin: 0;
+    background-color: #282248;
+    padding: 10px;
+    align-items: center;
+
+}
+/*ICONO*/
+img.icon{
+    content: url("../media/images/mbicon.png");
+    height: 13vh;
+    margin-left: 5vh;
+}
+/*TITULO*/
+h1.title{
+    font-family: 'Roboto', sans-serif;
+	font-size: 5vh;
+    color: white;
+	text-shadow: rgb(12, 12, 12) 0.08em 0.08em 0.08em;
+    margin-left: 5vh;
+}
+
