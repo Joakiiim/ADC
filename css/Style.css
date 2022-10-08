@@ -33,11 +33,15 @@ body.color-fondo{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 .logo{
     font-size: 1.3em;
     text-align: center;
     margin-left: 80px;
+}
+.menu-icon{
+    display: none;
 }
 .navigation ul{
     margin: 0;
@@ -62,11 +66,44 @@ body.color-fondo{
     padding: 10px;
 }
 .main{
-    padding-top: 8rem;
+    padding-top: 10rem;
 }
 .footer{
     background: #282248;
     padding: 4rem 0;
     text-align: center;
     margin-top: 6rem;
+}
+
+@media only screen and (max-width: 790px) {
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+        padding: 0.2rem 0.5rem;
+    }
+    .logo{
+        margin-left: 20px;
+    }
+    .navigation{
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .navigation ul{
+        display: none;
+    }
+    .navigation ul.show{
+        display: block;
+    }
+    .navigation ul li{
+        display: block;
+    }
+    .navigation ul li a{
+        display: block;
+        padding: 0.2rem;
+        transition: all 0.4s linear;
+        border-radius: 5px;
+    }
+    .navigation ul li a:hover{
+        background-color: rgba(204, 204, 204, 0.158);
+    }
 }
