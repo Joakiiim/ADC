@@ -16,7 +16,7 @@ body.color-fondo{
     margin: 0 auto;
 }
 .header{
-    background-color: #282248;
+    background-color: #282248fa;
     color: white;
     padding: 0;
     position: fixed;
@@ -155,13 +155,17 @@ body.color-fondo{
 }
 .logotec{
     content: url("../media/images/logotec.png");
-    height: 80px;
+    height: 70px;
     display: inline;
     text-align: center;
 }
 .botText{
-    font-size: 16px;
     text-align: center;
+}
+.botImg{
+    text-align: left;
+    display: inline-block;
+    font-size: 16px;
 }
 
 /*----------------- IMAGENES UTILIZADAS -----------------------------*/
