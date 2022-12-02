@@ -13,7 +13,7 @@ body.color-fondo{
 .container{
     width: 100%;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: auto;
 }
 .header{
     background-color: #282248fa;
@@ -148,10 +148,33 @@ body.color-fondo{
 .imageText{
     text-align: center;
 }
-.title{
+h6.title{
+    margin-left: 45px;
     text-align: center;
     font-size: 25px;
     margin-bottom: 20px;
+}
+.titleT{
+    margin-left: 45px;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.temas{
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin: 0;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}
+.ulTemas{
+    list-style: none;
 }
 .logotec{
     content: url("../media/images/logotec.png");
